@@ -9,7 +9,18 @@
 </head>
 
 <body>
-
+  <script>
+    function outer() {
+      const outerVar = 'I am the outer Var!';
+      function inner() {
+        const innerVar = 'I am the inner Var!';
+        console.log(innerVar);
+        console.log(outerVar);
+      }
+      inner();
+    }
+    outer();
+  </script>
 </body>
 
 </html>
