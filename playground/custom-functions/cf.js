@@ -1,9 +1,16 @@
-function calculateBill() {
-  const amount = 100 * 1.13;
-  const total = Math.round(amount);
+function calculateBill(billAmount, taxRate) {
+  const total = billAmount * (1 + taxRate);
   return total;
 }
 
-const myTotal = calculateBill();
+const myTotal = calculateBill(100, 0.13);
 
-console.log(`Your total is ${calculateBill()}.`);
+function doctorize(name) {
+  return `Dr. ${name}`;
+}
+
+function yell(name = 'Joe') {
+  return `HEY ${name.toUpperCase()}`;
+}
+
+doctorize('seb');
