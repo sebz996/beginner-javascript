@@ -1,19 +1,6 @@
-const person = {
-    first: 'wes',
-    last: 'box',
-    age: 100,
-}
+let isDrawing = false;
+let age = 18;
+const ofAge = age > 10;
+console.log(ofAge);
 
-person.dog
-
-const cher = {
-    first: 'cher'
-};
-
-const teller = {
-    first: 'Raymond',
-    last: 'Teller'
-}
-
-teller.first = 'Teller'
-teller.last = null;
+age = 100;
