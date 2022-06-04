@@ -1,2 +1,1 @@
-const p = document.querySelector('p');
-console.log(p)
+pizzaList.insertAdjacentText('afterbegin', 'pizza');
