@@ -16,6 +16,8 @@ ctx.linejoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 10;
 
+let hue = 0;
+ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
 ctx.beginPath(); // start the drawing
 ctx.moveTo(x, y);
 ctx.lineTo(x, y);
@@ -23,6 +25,9 @@ ctx.stroke();
 
 // write a draw function
 function draw({ key }) {
+    //increment hue
+    hue += 10;
+    ctx.strokeStyle = `hsl(${Math.random() * 360}, 100%, 50%)`;
     console.log(key); 
     // start path
     ctx.beginPath();
@@ -55,6 +60,14 @@ function handleKey(e) {
 }
 
 // clear/shake function
+function clearCanvas() {
+    canvas.classList.add('shake');
+    canvas.addEventListener('animationend', function() {
+        canvas.classList.remove('shake');
+    }, 
+    { once: true}
+    );
+}
 
 // listen for arrow keys
 window.addEventListener('keydown', handleKey) 
