@@ -1,0 +1,251 @@
+[33mcommit 9fc3de4ca731b4b10961f74306644f050e4a55da[m[33m ([m[1;36mHEAD -> [m[1;32msebscript[m[33m)[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sun Jun 5 20:03:34 2022 +0800
+
+    module 6-1 - etch-a-sketch: select elements, set up canvas
+
+[33mcommit 6c61c6ecbacf6615c1b923df511acd5b9adacba0[m[33m ([m[1;31morigin/sebscript[m[33m)[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sun Jun 5 16:59:06 2022 +0800
+
+    complete module 5-32 - accessibility
+
+[33mcommit 3339d4a5beaeb43c7086eeb46377859ded335cb0[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sun Jun 5 14:22:21 2022 +0800
+
+    complete module 5-31 - prevent default events
+
+[33mcommit c886aa9b40067bb03b9b89a5be57f9623b9cc8b1[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sun Jun 5 13:22:25 2022 +0800
+
+    complete module 5-30 - targets, bubbling, propagation, capture
+
+[33mcommit 7e90ed5a6f0f97ddfea11b57642507fa16f553b0[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sun Jun 5 10:44:01 2022 +0800
+
+    complete module 5-29 - event listeners
+
+[33mcommit 05794dfa165c68cb76b692f3865179520e4bd859[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 19:40:04 2022 +0800
+
+    complete module 4-28
+
+[33mcommit 257d00897fd42656473fffbc31fb0d220603742c[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 19:12:30 2022 +0800
+
+    complete module 4-27
+
+[33mcommit c86ceb2e756a47c65dbf7aa4f51ce0bdbeab716c[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 19:02:09 2022 +0800
+
+    complete module 4-26
+
+[33mcommit ec6120ec1ee5e011ecbc1857deccb16116d78737[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 14:42:21 2022 +0800
+
+    complete module 4-25 - creating html elements
+
+[33mcommit d72845a6fb1b33429c621de33df5994691ee645a[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 14:09:58 2022 +0800
+
+    complete module 4-24 - dom attributes
+
+[33mcommit 64af63080366787bdc645b870c947c9f679f4e58[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 10:24:36 2022 +0800
+
+    complete module 4-23 - classes
+
+[33mcommit b294b001f72d21405eb383cca90192c2747fbd7c[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 09:49:51 2022 +0800
+
+    complete module 4-22 - element properties
+
+[33mcommit 019504dea460c71580ba269d35d3f638c1939a98[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Sat Jun 4 09:36:52 2022 +0800
+
+    complete module 4-21 - selecting elements
+
+[33mcommit 302de384ba607cc07b754db464225b78e1eacaee[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 22:44:52 2022 +0800
+
+    complete module 3-19 - closures
+
+[33mcommit ac5bebc1271955402c1141033eaa99aeae573213[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 21:31:53 2022 +0800
+
+    complete module 3-18 - hoisting
+
+[33mcommit 4099c81a0ed1e2361cfe9f6c33e0ff95aa87a980[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 21:20:09 2022 +0800
+
+    complete module 3-17 - scope
+
+[33mcommit 16312aa074976cb18bec36c17d99c51309bd9b32[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 20:32:16 2022 +0800
+
+    comlete module 2-16 - debugging
+
+[33mcommit e04c8d25b0b0a8620c9dd884f089a2d5472262f3[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 19:04:58 2022 +0800
+
+    complete module 2-15 - different ways to declare functions
+
+[33mcommit 7074f8e2e8c695087da12fcb09c1ff225c8e2867[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 16:20:48 2022 +0800
+
+    complete 2-14 - parameters
+
+[33mcommit 472f0d612b5b00b49148b298d309494acb65922f[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 12:30:04 2022 +0800
+
+    complete module 2-13 - custom functions
+
+[33mcommit 87ee5fc58cdc6e6d5bfa306c0eea0832a7e7db42[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 10:36:13 2022 +0800
+
+    complete module 2-12 - built in functions
+
+[33mcommit 7b98c9d7505f9666b06437fd664afcf0ad59e526[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 09:44:50 2022 +0800
+
+    complete module 1-11 - booleans
+
+[33mcommit f26350067460d17fe33841f800ed9f770d1702f4[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 09:30:24 2022 +0800
+
+    complete module 1-10 - null and undefined
+
+[33mcommit 2860c05adb42d0f701990db759384db4ef4cc882[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Fri Jun 3 09:20:24 2022 +0800
+
+    complete module 4-9 - objects
+
+[33mcommit e703f4d666c4cafcb90093cc8cb26f978a2ec248[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Thu Jun 2 21:50:46 2022 +0800
+
+    module 1-7 complete
+
+[33mcommit f833ede0cfa0628d9e995578b93512d5e8ab3cd2[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Thu Jun 2 21:17:08 2022 +0800
+
+    lesson on types
+
+[33mcommit 2ad609fc5398608462458bc3da74a0c4f2c69ba7[m
+Author: Sebastian <105150623+sebz996@users.noreply.github.com>
+Date:   Thu Jun 2 20:10:39 2022 +0800
+
+    completed module 1-4: variables and statements
+
+[33mcommit ab2cb26365378b015e3ed3a630771baf3da261fa[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 7745c86 4fb2bf2
+Author: Wes Bos <wesbos@gmail.com>
+Date:   Tue Feb 22 15:17:37 2022 -0500
+
+    Merge pull request #154 from Asjas/recipe-puppy-api
+    
+    update API URL for recipe puppy api
+
+[33mcommit 4fb2bf25963876ce884f4f5426076b6cc77f8171[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Wed Feb 16 17:54:28 2022 +0200
+
+    add note to starter file about replacement recipe url
+
+[33mcommit 0e2cfc451e90214ce1dcbacc291550f050ea37bc[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Wed Feb 16 17:53:00 2022 +0200
+
+    revert back to using recipes.results for displayRecipes
+
+[33mcommit 7745c866d955f558da795a999304d779e57a4acb[m
+Merge: 6b797e6 d8a62a7
+Author: Wes Bos <wesbos@gmail.com>
+Date:   Thu Feb 3 09:41:41 2022 -0500
+
+    Merge pull request #159 from Asjas/update-parcel-version
+    
+    Update parcel versions
+
+[33mcommit d8a62a7e4682a870caff3f47ef71918fa9f3ecc8[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Thu Feb 3 15:33:46 2022 +0200
+
+    update parcel to v2.0.1 for lesson 59
+
+[33mcommit 825aa4122e93a16678fe2bfb00d8984092edb9a0[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Thu Feb 3 15:29:50 2022 +0200
+
+    update parcel to v2.0.1 for lesson 85
+
+[33mcommit 79d6e9293fec75758c0585742254a8555cf7acc6[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Thu Feb 3 15:29:12 2022 +0200
+
+    update parcel to v2.0.1 for lesson 84
+
+[33mcommit 36ce375bb64fc7d59f300fc20c878b28ac12ec1a[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Thu Feb 3 15:28:49 2022 +0200
+
+    update parcel to v2.0.1 for lesson 83
+
+[33mcommit 5e6dcb67d504c1a63052e4cfb2edf0477569a398[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Thu Feb 3 15:28:11 2022 +0200
+
+    update parcel to v2.0.1 for lesson 82
+
+[33mcommit 0a8e2c88636db986bbcf8ec6a58ffe0a64994621[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Thu Feb 3 15:26:56 2022 +0200
+
+    update parcel to v2.0.1 for lesson 81
+
+[33mcommit a48bfd436160d12c61d447cc9911e281a7b7ea15[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Thu Feb 3 15:25:04 2022 +0200
+
+    update parcel to v2.0.1 for lesson 75
+
+[33mcommit 7d784f8b189997f85d0e32f0d5e76401cf84498e[m
+Author: A-J Roos <asjas@hey.com>
+Date:   Wed Jan 19 20:01:19 2022 +0200
+
+    update API URL for recipe puppy api
+
+[33mcommit 6b797e691c84d529a675c191f9b3092694049e0c[m
+Merge: 048346b 714af22
+Author: Wes Bos <wesbos@gmail.com>
+Date:   Tue Jan 18 09:14:07 2022 -0500
+
+    Merge pull request #153 from jamilnyc/fix/exercise_55_parcel_version
+    
+    Update Parcel version in Face Detection Exercise
+
+[33mcommit 714af22bf371cb54ff0a5cca388a19fbfbfc341e[m
+Author: Murshed
