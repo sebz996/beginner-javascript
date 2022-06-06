@@ -20,4 +20,5 @@ function handleTabClick(event) {
     tabPanel.hidden = false; 
 }
 
+// iterate through buttons, pass event listener to function
 tabButtons.forEach(button => button.addEventListener('click', handleTabClick));
