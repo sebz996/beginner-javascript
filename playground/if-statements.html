@@ -10,42 +10,32 @@
 
 <body>
   <script>
-    const age = 100;
-    if (age >= 70) {
-      console.log('septuagenarian');
-    } else if (age >= 60) {
-      console.log('sexagenarian');
-    } else if (age >= 50) {
-      console.log('quinquagenarian');
-    } else {
-      console.log('below 50');
+    //coercion - forcing a type into a boolean
+    const onTask = true;
+
+    if (!onTask) {
+      console.log('off task');
     }
 
-    function slugify(sentence, lowercase) {
-      let slug = sentence.replace(/\s/g, '-');
-      if (lowercase) {
-        return slug.toLowerCase();
-      }
-      // else
-      return slug;
-    }
+    // ternaries
 
-    const name = 'seb';
-    const last = 'dev';
 
-    if (name === 'seb' || name === 'seb' && last === 'dev') {
-      console.log('cool name');
-    }
+    const count = 1;
+    // let word;
+    // if (count === 1) {
+    //   word = 'item';
+    // } else {
+    //   word = 'items';
+    // }
 
-    const isAwesomeName = 'awesome'.includes(name);
-    if (isAwesomeName) {
-      console.log('blah blah blah');
-    }
+    // turn above into a ternary
+    // 1. condition
+    // 2. what to do if true
+    // 3. what to do if false
+    const word = count === 1 ? 'item' : 'items';
 
-    function nameIsAwesome(name) {
-      return 'awesome'.includes('name');
-
-    }
+    const sentence = `You have ${count} ${word} in your cart`;
+    console.log(sentence);
 
   </script>
 </body>
