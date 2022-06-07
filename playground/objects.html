@@ -10,23 +10,33 @@
 
 <body>
   <script>
-    const age = 100;
 
-    const seb = {
-      age,
-      name: 'seb',
-      'cool-dude': false,
-      '777': true,
-      dog: 'bella',
-      clothing: {
-        shirts: 10,
-        pants: 2,
-      },
-      loc: Bali,
-    };
+    let name1 = 'seb';
+    let name2 = 'seb';
 
-    person.job = 'web dev';
-    person.age = '50';
+    console.log(name1 === name2);
+    name2 = 'joe';
+    console.log(name1 === name2);
+
+    name1 = name2;
+    console.log(name1 === name2);
+
+    const person1 = {
+      first: 'seb',
+      last: 'dev',
+    }
+    const person2 = {
+      first: 'seb',
+      last: 'dev',
+    }
+
+    // const person3 = person1;
+    // person3.first = 'mike';
+    // console.log(person3.first);
+    // console.log(person1.first);
+
+    const person3 = { ...person1 };
+
 
   </script>
 </body>
