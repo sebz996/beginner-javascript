@@ -9,7 +9,28 @@
 </head>
 
 <body>
+  <ul class="prizes"></ul>
   <script>
+    const myMap = new Map()
+    // .set()
+    myMap.set('name', 'seb');
+    myMap.set(100, 'This is a number');
+    console.log(myMap);
+
+    const score = 100;
+    const prizes = new Map();
+    prizes.set(100, 'Bear');
+    prizes.set(200, 'Duck');
+    prizes.set(500, 'Car');
+    console.log(`You win a ${prizes.get(score)}`);
+    // select ul
+    const ul = document.querySelector('.prizes');
+    for (const [points, prize] of prizes) {
+      const li = `<li>${points} - ${prize}</lie>`;
+      ul.insertAdjacentHTML('beforeend', li);
+    }
+    // .has()
+    // .delete()
 
   </script>
 </body>
