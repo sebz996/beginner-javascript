@@ -11,6 +11,82 @@
 </head>
 
 <body>
+  <script>
+    const bands = ['Bethlehem', 'Silencer', 'Deinonychus']
+
+    // console.log(Array.isArray(bands)); // check if array
+
+    // console.log(bands[0]); // access array item
+    // console.log(bands.length); // find array length
+    // console.log(bands[bands.length - 1]); // access last item
+
+    // bands.push('Aaskereia');
+    // console.log(bands);
+    // const bands2 = [...bands, 'Satyricon'];
+    // bands.unshift('darkthrone');
+    // console.log(bands);
+    // const bands3 = ['Sabaton', ...bands];
+    // console.log(bands);
+
+    const cribs = ['Jakarta', 'Manila', 'Bangkok', 'Tokyo'];
+    const newCribs = [
+      ...cribs.slice(0, 2),
+      'London',
+      ...cribs.slice(2)
+    ]
+    console.log(newCribs);
+
+    const newCribs2 = [
+      ...newCribs.slice(0, 3),
+      ...newCribs.slice(4)
+    ]
+    console.log(newCribs2);
+
+    // 
+    const comments = [
+      { text: 'cool beans', id: 123 },
+      { text: 'cool beans', id: 133 },
+      { text: 'cool beans', id: 233 },
+      { text: 'cool beans', id: 333 },
+      { text: 'cool beans', id: 433 },
+    ]
+
+    function deleteComment(id, comments) {
+      // find item index within array
+      // create new array without item
+      // return new array
+
+    }
+
+    const cribsIndex = cribs.findIndex(crib => {
+      return crib === 'Jakarta';
+    });
+    console.log(cribsIndex);
+
+    // splice destructive; slice non-destructive
+    // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    // console.log(numbers);
+    // numbers.splice(3, 2);
+    // console.log(numbers);
+
+
+
+    // // Mutation Method
+    // const numbers = [1, 2, 3, 4, 5, 7, 8, 9];
+    // // numbers.reverse();
+    // console.log(numbers); // output is reversed; reverse() is destructive
+    // // immutable - non-destructive
+    // const pizzaSlice = numbers.slice(2, 4);
+    // console.log(pizzaSlice);
+    // console.log(numbers); // returns original array
+    // // to use a destructive method without altering the data,
+    // // copy the original array
+    // const numbersReversed = [...numbers];
+    // console.log(numbersReversed);
+
+
+  </script>
 
 </body>
 
