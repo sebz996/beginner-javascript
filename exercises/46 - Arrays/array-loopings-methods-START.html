@@ -161,6 +161,11 @@
     });
     console.table(over40);
 
+    let total = 0;
+    orderTotals.forEach(singleTotal => {
+      total = total + singleTotal;
+    });
+    console.log(total);
 
   </script>
 </body>
