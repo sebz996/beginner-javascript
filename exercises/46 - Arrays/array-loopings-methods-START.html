@@ -134,6 +134,24 @@
     }
     toppings.forEach(logTopping);
 
+    // Map, filter, reduce
+    console.clear()
+
+    function addArms(face) {
+      return `😃 ${face} 😃`
+    }
+
+    const toys = faces.map(addArms);
+    console.log(toys)
+
+    function lexify(name) {
+      return `${name} Lex`;
+    }
+
+    const fullNames = ['Seb', 'Gail', 'Liz'].map(capitalize).map(lexify));
+    console.log(fullNames);
+
+
 
   </script>
 </body>
